@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Updated title and meta for Lakhal Ayoub -->
+    <title>Lakhal Ayoub - Web Developer & Writer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <!-- Updated brand name to Lakhal Ayoub -->
+                <span class="brand-text">Lakhal Ayoub</span>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <!-- Wrapped text content in hero-text div for better layout control -->
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hello, I'm <span class="accent-text">Lakhal Ayoub</span>
+                    </h1>
+                    
+                    <p class="hero-subtitle">
+                        Freelance <span class="typing-text" id="typewriter">Web Developer</span>
+                    </p>
+                    
+                    <p class="hero-description">
+                        Creative and results-driven developer and IT writer based in Meknès, 
+                        with a strong ability to generate innovative ideas and transform them into impactful digital solutions.
+                    </p>
+                    
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">
+                            Contact Me
+                            <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </a>
+                        <a href="cv.pdf" download class="btn btn-outline">
+                            <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="7,10 12,15 17,10"></polyline>
+                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                            </svg>
+                            Download CV
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <!-- Updated profile image and alt text -->
+                        <img src="WhatsApp Image 2025-09-19 à 20.09.50_99354d1c.jpg" alt="Lakhal Ayoub" class="profile-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <!-- Updated about content with Lakhal's information -->
+                    <h3 class="about-heading">Hello, My name is <span class="accent-text">Ayoub</span> and I'm a <span class="secondary-text">Software Developer</span></h3>
+                    <p class="about-description">
+                        Skilled in designing, developing and optimizing software systems to enhance their performance and scalability, 
+                        I also create compelling and user-centered content.
+                    </p>
+                    <p class="about-description">
+                        Highly organized, able to work under pressure while meeting deadlines, I am committed to continuous learning 
+                        in a constantly evolving technological environment.
+                    </p>
+                </div>
+                
+                <!-- Updated skills with Lakhal's technologies -->
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-icon">🌐</div>
+                        <h4 class="skill-title">HTML & CSS</h4>
+                        <p class="skill-description">Modern and responsive frontend development</p>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">⚡</div>
+                        <h4 class="skill-title">JavaScript</h4>
+                        <p class="skill-description">Interactive and dynamic applications</p>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">🔧</div>
+                        <h4 class="skill-title">PHP & MySQL</h4>
+                        <p class="skill-description">Backend development and databases</p>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">💻</div>
+                        <h4 class="skill-title">C# & Node.js</h4>
+                        <p class="skill-description">Desktop and server applications</p>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">📱</div>
+                        <h4 class="skill-title">Dart & Python</h4>
+                        <p class="skill-description">Mobile applications and scripts</p>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">🗄️</div>
+                        <h4 class="skill-title">SQL</h4>
+                        <p class="skill-description">Data management and analysis</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Services</h2>
+                <p class="section-subtitle">What I can do for you</p>
+            </div>
+            
+            <!-- Added services section with Lakhal's offerings -->
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3 class="service-title">Web Development</h3>
+                    <p class="service-description">
+                        Creating responsive websites for small businesses using HTML, CSS and JavaScript.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">✍️</div>
+                    <h3 class="service-title">Content Writing</h3>
+                    <p class="service-description">
+                        Writing compelling email subjects and content to boost customer engagement and sales.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔧</div>
+                    <h3 class="service-title">Technical Support</h3>
+                    <p class="service-description">
+                        IT and network troubleshooting, software installation and maintenance.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🗄️</div>
+                    <h3 class="service-title">Database Management</h3>
+                    <p class="service-description">
+                        Using server-side PHP and MySQL for data management and analysis.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📧</div>
+                    <h3 class="service-title">Email Marketing</h3>
+                    <p class="service-description">
+                        Creating high-conversion email sequences for e-commerce brands.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Portfolio</h2>
+                <p class="section-subtitle">My recent projects and achievements</p>
+            </div>
+            
+            <!-- Updated projects with Lakhal's actual work -->
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Homepage_luxacars.PNG" alt="LakhalLuxCars Platform">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Automotive Management Web Platform</h3>
+                        <p class="project-description">
+                            Development of a complete website for car sales and rental with administrative dashboard.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="BookStore_website.PNG" alt="Online Bookstore">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Online Bookstore</h3>
+                        <p class="project-description">
+                            Complete book sales platform with author management system, categories, and wishlist functionality.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Html</span>
+                            <span class="tech-tag">CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="ArtGallery_website.PNG" alt="Art Gallery">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Online Art Gallery</h3>
+                        <p class="project-description">
+                            Web platform for discovering and purchasing original artworks with artist management system.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Html</span>
+                            <span class="tech-tag">CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="headphones_website.PNG" alt="Headphones E-commerce Site">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Headphones E-commerce Site</h3>
+                        <p class="project-description">
+                            Modern website for selling Bluetooth headphones with interactive carousel, shopping cart system and responsive design.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="AudioMax_website.PNG" alt="Headphones E-commerce Site">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">AudioMax – Premium Audio Store</h3>
+                        <p class="project-description">
+                            A modern e-commerce website designed for selling high-quality headphones and audio equipment. The site features a clean UI, intuitive navigation, product highlights, and call-to-action buttons for seamless shopping. Built with a focus on user experience and responsive design, it ensures customers can easily browse, learn, and purchase audio products.                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySql</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contact Me</h2>
+                <p class="section-subtitle">Let's work together on your next project</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 class="contact-heading">Contact Information</h3>
+                    <!-- Updated contact information with Lakhal's details -->
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>lakhalayoub118@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+212 6.10.59.36.39</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Sector A Street 6 N 5 El bassatine, 50000 Meknès</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Updated footer with Lakhal's name -->
+                <p>&copy; 2025 Lakhal Ayoub. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/lakhal-ayoub-234997278/" class="social-link">LinkedIn</a>
+                    <a href="https://github.com/lakhalayoub97" class="social-link">GitHub</a>
+                    <a href="https://x.com/lakhalayoub97" class="social-link">Twitter</a>
+                    <a href="https://www.instagram.com/elite_code1?igsh=MW1jdjQ2ejdqcm4zZg==" class="social-link">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
