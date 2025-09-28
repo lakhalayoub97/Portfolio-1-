@@ -58,7 +58,7 @@ Site web moderne pour la vente de casques Bluetooth premium
 - 📱 **Design**: Interface responsive avec carousel interactif  
 
 ### 4. AudioMax – Premium Audio Store
-![AudioMax](https://hebbkx1anhila5yf.public.blob.vercel-storage.com/AudioMax_website.PNG-XjBnbtIu6oM2EisjO5m3tG4tQOeQlW.png)
+![AudioMax](images/AudioMax_website.PNG)
 
 Un site e-commerce moderne conçu pour la vente de casques et équipements audio haut de gamme  
 - 🎧 **Fonctionnalités**: Interface intuitive, navigation fluide, mise en avant des produits, panier d’achat  
